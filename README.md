@@ -16,8 +16,8 @@ Step 1: To Run the code: Install pip install torch medpy nibabel numpy scikit-le
 Step 2: Mount the Drive
 Step 3: Extract the tar file from the drive location or Attached the Dataset from the drive or upload it from you local and Run the cell one by one to execute the Assignement.
 Step 4: Run The Task 1 cell for the MRI Segmentation mask visualization
-Step 5: Run The Task 2 cells for the 5 fold function executiona nd finally it will give the output of final segmentation. 
-Step 6: For better results add the Image size, Epoch and Batch sizes as needed.
+Step 5: Run The Task 2 cells for the 5 fold function execution and to get output of final segmentation. 
+Step 6: For better results increase the Image size, Epoch and Batch sizes as needed.
 
 Future Work
 False Positives: Some extra segmented regions detected
