@@ -19,8 +19,7 @@ Step 4: Run The Task 1 cell for the MRI Segmentation mask visualization
 Step 5: Run The Task 2 cells for the 5 fold function executiona nd finally it will give the output of final segmentation. 
 Step 6: For better results add the Image size, Epoch and Batch sizes as needed.
 
-Challenges & Future Work
-Memory Limitations: Unable to train full dataset due to GPU constraints
+Future Work
 False Positives: Some extra segmented regions detected
 Blurry Tumor Boundaries: Model needs better boundary refinement
 Future Work: Upgrade to 3D U-Net for better spatial consistency
