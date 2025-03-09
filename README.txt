@@ -1,5 +1,5 @@
 # 2D_UNet_Brain_Tumour_Segmentation
-**Overview**
+**Overview** 
 This Assignment implements a 2D U-Net-based Brain Tumor Segmentation model trained on the BraTS dataset. The model segments MRI images into different tumor sub-regions using deep learning techniques. A 5-fold cross-validation strategy is applied to evaluate model performance.
 Dataset
 The dataset used is from the Brain Tumor Image Segmentation (BraTS) challenge, available https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2. Download the Task01_BrainTumour.tar file and extract it.
