@@ -158,13 +158,6 @@ Enhancing Tumor (ET) Dice scores were consistently 1.0 across configurations, wh
 
 The limited training dataset (10% of BraTS) and GPU memory constraints significantly impacted what could be achieved. Some folds showed notably worse performance than others (Fold 3 sometimes dropped to 0.74 Dice while others reached 0.86), demonstrating that dataset diversity remained a limiting factor.
 
-## How This Is Useful and Why It Matters
-
-This project demonstrates that even with limited computational resources and reduced dataset sizes, a U-Net model can achieve reasonable performance on brain tumor segmentation. For research purposes, this shows that 2D approaches can work effectively, though 3D methods would likely improve spatial consistency by processing entire volumetric data at once.
-
-The memory optimization techniques used here (garbage collection and CUDA cache clearing) make it possible to train on standard GPUs without expensive high-end hardware. This makes the approach accessible to researchers without large computational budgets. The training process runs efficiently on T4 GPUs available through Google Colab Pro, making this work reproducible and accessible.
-
-The consistent cross-fold performance across the best configuration suggests that with more training data and longer training schedules, this architecture would likely achieve clinical-grade segmentation. The findings also provide baseline metrics that inform future improvements, such as implementing 3D U-Net for volumetric consistency, using advanced loss functions to reduce false positives, applying post-processing morphological operations, and leveraging transfer learning from pre-trained medical imaging models.
 
 ## Getting Started
 
