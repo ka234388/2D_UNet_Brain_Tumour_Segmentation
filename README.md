@@ -236,6 +236,3 @@ For practical clinical deployment, the next steps would involve training on the 
 - Ronneberger et al. (2015). "U-Net: Convolutional Networks for Biomedical Image Segmentation"
 - BraTS Dataset: https://www.med.upenn.edu/cbica/brats/
 - PyTorch Documentation: https://pytorch.org/
-
-**University**: University of Central Florida  
-**Date**: 2025
